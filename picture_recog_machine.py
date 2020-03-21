@@ -61,7 +61,7 @@ print("***********SAY CHEEEEESE!!***********")
 
 video_capture = cv2.VideoCapture(0)
 s, test_image = video_capture.read()
-cv2.imwrite("test_image.png", test_image)
+cv2.imwrite("test_image.jpg", test_image)
 
 if not video_capture.isOpened():
     raise Exception("Could not open video device")
@@ -71,7 +71,7 @@ video_capture.release()
 # Comparing captured face with database of admin faces
 
 admin_face = fr.load_image_file("Admin/admin.png")
-test_image = fr.load_image_file("test_image.png")
+test_image = fr.load_image_file("test_image.jpg")
 
 admin_enc = fr.face_encodings(admin_face)[0]
 test_enc = np.array(fr.face_encodings(test_image))
@@ -87,7 +87,12 @@ for i in range(len(test_enc)):
     else :
         name = "XXX-XXX-XXX"
         plot_crosshairs(test_image, i, fig2, ax2, name)
-plt.show()
+
+plt.axis('off')
+plt.subplots_adjust(top = 1, bottom = 0, right = 1, left = 0, hspace = 0, wspace = 0)
+plt.margins(0,0)
+
+plt.savefig("recog_result.jpg")
 
 os.system("rm -rf test_image.png")
 
