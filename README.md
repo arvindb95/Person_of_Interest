@@ -3,4 +3,4 @@ Person of Interest is an American science fiction crime drama. [Checkout the sho
 
 Here is an example output :
 
-<img src="https://github.com/arvindb95/Person_of_Interest/blob/master/test_image.jpg" title="Test image" width="425px"/> <img src="https://github.com/arvindb95/Person_of_Interest/blob/master/recog_result.png" title="ADMIN identified by The Machine" width="425px"/>
+<img src="https://github.com/arvindb95/Person_of_Interest/blob/master/test_image.jpg" title="Test image" width="425px"/> <img src="https://github.com/arvindb95/Person_of_Interest/blob/master/recog_result.jpg" title="ADMIN identified by The Machine" width="425px"/>
