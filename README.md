@@ -1,5 +1,5 @@
 # Person of Interest
-Person of Interest is an American science fiction crime drama. [Checkout the show!](https://www.netflix.com/title/70197042) It's one of the closest TV shows to my heart. Here, I have some python codes that try to emulate the face recognition function of _The Machine_ with the help of this [face recognition api for Python](https://github.com/ageitgey/face_recognition). Make sure to check that out too!
+Person of Interest is an American science fiction crime drama. [Checkout the show!](https://www.imdb.com/title/tt1839578/) It's one of the closest TV shows to my heart. Here, I have some python codes that try to emulate the face recognition function of _The Machine_ with the help of this [face recognition api for Python](https://github.com/ageitgey/face_recognition). Make sure to check that out too!
 
 Here is an example output of [picture_recog_machine.py](https://github.com/arvindb95/Person_of_Interest/blob/master/picture_recog_machine.py):
 
